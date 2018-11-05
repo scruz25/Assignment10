@@ -1,0 +1,211 @@
+body {
+  background: #FFF9d4;
+  background-image: url("images/newpr.jpg");
+  background-size: cover;
+ /* filter: blur(3px);*/
+
+}
+
+.header {
+    background-color: #d03409;
+    width: 1000px;
+    border: 5px solid white;
+    padding: 5px;
+    margin: auto;
+
+}
+
+/*HEADER */
+h1{ 
+    font-family: 'Rock Salt', cursive;
+    color: black;
+    text-align: center;
+    font-size: 45px;}
+
+
+div{display: block;
+    color: #666;
+    text-align: center;
+    padding: 1px 50px
+  }
+
+/* Caption text */
+.text {
+    color: black;
+    font-family: 'Rock Salt', cursive;
+    font-size: 25px;
+    text-align: center;
+    background-color: #d03409;
+    width: 1000px;
+    border: 10px solid white;
+    padding: 5px;
+    margin: auto;
+}
+
+
+}
+
+.slideshow-container {
+  display: block;
+  color: white;
+  overflow: hidden;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  white-space: nowrap;
+  max-width: 1000px;
+    position: relative;
+    height: 100%
+    background-color: #d03409;
+    width: 1000px;
+    border: 10px solid white;
+    padding: 25px;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color:black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.dots {
+  text-align: center;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: red;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+  /*transition: background-color 0.6s ease;*/
+}
+
+.active, .dot:hover {
+  background-color: red;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/*ARROWS*/
+
+.slider-nav-control {
+    top: 0;
+    bottom: auto;
+    width: 100px;
+    height: 500px;
+    margin-top: auto;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+
+/*ICON*/
+
+.slider-nav-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    background-image: url(https://uploads-ssl.webflow.com/55c8a44…/5620f27…_sprite-nav-slider.svg);
+    background-position: 0 0;
+}
+
+
+/*ANIMATION*/
+@keyframes color-change{
+    0%{background-color: red;}
+    25%{background-color: white;}
+    50% {background-color: blue;}
+    75% {background-color: red;}
+}
+
+
+
+@keyframes color-move{
+    0% {background-color:white ;left:0px; top:0px;}
+    20%{background-color:blue ;left:200px;top:0px;}
+    45% {background-color: red;left: 200px;top:200px;}
+    80% {background-color: blue;left:0px;top:200px;}
+    100% {background-color: red;left:0px;top:0px;}
+}
+
+
+#test {
+    width:68%;
+    height:5px;
+    background-color:#E24E42;
+    position: relative;
+    margin:auto;
+
+animation-name: color-change;
+animation-duration:6s;
+animation-iteration-count:infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
